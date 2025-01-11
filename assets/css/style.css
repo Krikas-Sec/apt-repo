@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navigation {
+    background-color: #005f73;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #005f73;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.banner {
+    text-align: center;
+    background: linear-gradient(135deg, #005f73, #0a9396, #94d2bd);
+    color: white;
+    padding: 50px 10px; /* Ökar höjden */
+    border-bottom: 5px solid #005f73; /* Lägger till en markerad kant längst ner */
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 3em; /* Gör titeln större */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Lägger till textskugga */
+}
+
+.banner p {
+    margin: 10px 0 0;
+    font-size: 1.5em; /* Gör beskrivningstexten större */
+    font-style: italic;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Lägger till textskugga */
+}
