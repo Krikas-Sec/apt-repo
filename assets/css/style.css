@@ -119,6 +119,10 @@ pre code {
     align-items: center;
     border-bottom: 1px solid #444;
 }
+/* Om det inte finns något språk */
+.code-header:empty {
+    padding: 8px 15px; /* Justera padding för en tom header */
+}
 
 /* Nyckelord och variabler */
 code span.keyword {
