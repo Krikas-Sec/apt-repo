@@ -57,16 +57,20 @@ body {
 }
 
 /* Footer */
+/* Gör footern fixerad längst ner på sidan */
 footer {
-    text-align: center;
-    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background: linear-gradient(135deg, #2f4b7c, #1e1e1e); /* Gradient för foten */
     color: white;
     border-top: 2px solid #003f5c; /* Liten kant för separation */
-    font-size: 0.9em;
-    width: 100%; /* Säkerställ att foten sträcker sig över hela sidan */
-    margin-top: auto; /* Lägger footern längst ner */
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10; /* Säkerställ att footern ligger ovanpå */
 }
+
 
 /* Gör att footern inte överlappar */
 .wrapper {
@@ -199,6 +203,7 @@ code span.function {
 .copy-btn:active {
     background-color: #94d2bd;
 }
+
 
 
 /* Lägg till marginal i botten av innehållet */
